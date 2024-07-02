@@ -6,7 +6,7 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 1. Commande ls
 2. Commande cd
 3. Commande cat
-4. Editeur Vi
+4. Editeur vim
 5. Commande mkdir
 6. Commande rm
 7. Commande grep
