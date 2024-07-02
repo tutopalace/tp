@@ -1,5 +1,4 @@
-# @tutopalace
-### youtube.com/@tutopalace
+# youtube.com/@tutopalace
 
 Repository pour exposition des fichiers traités dans la chaine Youtube de @tutopalace.
 
