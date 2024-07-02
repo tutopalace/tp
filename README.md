@@ -7,9 +7,10 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 2. Commande cd
 3. Commande cat
 4. Editeur Vi
-5. commande mkdir
-6. commande rm
-7.  
+5. Commande mkdir
+6. Commande rm
+7. Commande grep
+8. Commande find 
    
 
 ## Apprendre à configurer un serveur Ubuntu Linux  depuis windows ou macOS avec les conteneurs 
