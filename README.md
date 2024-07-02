@@ -2,9 +2,17 @@
 
 Repository pour exposition des fichiers traités dans la chaine Youtube de @tutopalace.
 
-Apprendre le terminal Linux
+## Apprendre le terminal Linux
+1. Commande ls
+2. Commande cd
+3. Commande cat
+4. Editeur Vi
+5. commande mkdir
+6. commande rm
+7.  
+   
 
-Apprendre à configurer un serveur Ubuntu Linux  depuis windows ou macOS avec les conteneurs 
+## Apprendre à configurer un serveur Ubuntu Linux  depuis windows ou macOS avec les conteneurs 
 
 1. Docker Desktop - Installation
 2. Docker Desktop - Les conteneurs
