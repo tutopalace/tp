@@ -2,7 +2,7 @@
 
 Repository pour exposition des fichiers traités dans la chaine Youtube de @tutopalace.
 
-## Apprendre le terminal Linux
+### Apprendre le terminal Linux
 1. Commande ls
 2. Commande cd
 3. Commande cat
@@ -13,7 +13,7 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 8. Commande find 
    
 
-## Apprendre à configurer un serveur Ubuntu Linux  depuis windows ou macOS avec les conteneurs 
+### Apprendre à configurer un serveur Ubuntu Linux  depuis windows ou macOS avec les conteneurs 
 
 1. Docker Desktop - Installation
 2. Docker Desktop - Les conteneurs
