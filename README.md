@@ -26,3 +26,19 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 
 
 # script de configuration rapide: conteneur-conf.sh
+
+-----
+#!/bin/bash
+
+# MAJ
+apt update && apt -y full-upgrade && apt -y clean && apt -y autoremove
+
+# Installation paquets 
+apt install vim git sudo iproute2 net-tools cron 
+
+# Création user tutopalace
+useradd -m -s /bin/bash tutopalace
+
+# Ajout permission sudo pour tutopalace  
+echo "tutopalace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/tutopalace
+-----
