@@ -1,6 +1,8 @@
 # tutopalace
-# Fichier d'environnement : var env, alias
-# Fichier qui sera complété au fil de la formation ...
+## Fichier d'environnement : var env, alias
+## Fichier qui sera complété au fil de la formation ...
+
+## https://github.com/tutopalace/tp/blob/main/.tutopalace
 
 clear
 cat<<'FIN'
