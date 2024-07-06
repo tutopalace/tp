@@ -1,5 +1,6 @@
 # tutopalace
 # Fichier d'environnement : var env, alias
+# Fichier qui sera complété au fil de la formation ...
 
 clear
 cat<<'FIN'
