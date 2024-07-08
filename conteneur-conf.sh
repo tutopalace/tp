@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## INFO : 
 ## Ce script devra permettre de configurer et de sécuriser un serveur. 
 ## Ce script avance au rythme des videos disponibles sur la chaine @tutopalace
 ## https://youtube.com/@tutopalace
