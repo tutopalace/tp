@@ -99,8 +99,8 @@ fi
 	alias dps="docker ps"
 	alias dpsa="docker ps -a"
 	
-	alias dr="docker run -itd --name "     # <container_name> <image>
-	alias de="docker exec -it "	       # <container_name> bash	
+	alias dr="docker run -itd --name " 	# <container_name> <image>
+	alias de="docker exec -it " 		# <container_name> bash	
         alias drm="docker rm -f "
 	alias din="docker inspect "
 
