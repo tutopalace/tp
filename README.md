@@ -25,8 +25,9 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 8. Docker & Ubuntu - Permissions rwx  - Commande chmod 
 
 
+-----
 
-### script de configuration rapide: conteneur-conf.sh
+### Script de configuration rapide: conteneur-conf.sh
 
 ```bash
 #!/bin/bash
