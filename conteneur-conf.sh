@@ -17,9 +17,12 @@ apt update && apt -y full-upgrade && apt -y clean && apt -y autoremove
 # 2. Installation utilitaires (paquets) 
 apt install vim git sudo iproute2 net-tools cron ssh
 
-# Création user tutopalace
+# 3. Création user tutopalace
 useradd -m -s /bin/bash tutopalace
 
-# Ajout permission sudo pour tutopalace  
+# 4. Ajout permission sudo pour tutopalace  
 echo "tutopalace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/tutopalace
+
+# Suite à venir avec video sur la chaine youtube.com/@tutopalace  ;-)
+
 
