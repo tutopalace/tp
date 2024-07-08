@@ -1,6 +1,6 @@
 # youtube.com/@tutopalace
-
 Repository pour exposition des fichiers traités dans la chaine Youtube de @tutopalace.
+
 
 ### Apprendre le terminal Linux
 1. Commande ls
@@ -25,20 +25,42 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 8. Docker & Ubuntu - Permissions rwx  - Commande chmod 
 
 
-# script de configuration rapide: conteneur-conf.sh
+
+### script de configuration rapide: conteneur-conf.sh
 
 -----
-      #!/bin/bash
-      
-      # MAJ
-      apt update && apt -y full-upgrade && apt -y clean && apt -y autoremove
-      
-      # Installation paquets 
-      apt install vim git sudo iproute2 net-tools cron 
-      
-      # Création user tutopalace
-      useradd -m -s /bin/bash tutopalace
-      
-      # Ajout permission sudo pour tutopalace  
-      echo "tutopalace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/tutopalace
+#!/bin/bash
+
+## INFO : 
+## Ce script devra permettre de configurer et de sécuriser un serveur. 
+## Ce script avance au rythme des videos disponibles sur la chaine @tutopalace
+## https://youtube.com/@tutopalace
+
+
+## Pour la configuration d'un serveur
+## 1. Mise à jour du serveur
+## 2. Installation des utilitaires nécessaires : vim git ...
+## 3. Ajout user 
+## 4. Configuration permissions sudo pour user
+
+## A venir ...
+## 5. Crontab  ( maj programmée & reboot programmé )
+## 6. Configuration SSH
+## ...
+
+
+
+# 1. Mise à jour du serveur
+apt update && apt -y full-upgrade && apt -y clean && apt -y autoremove
+
+# 2. Installation utilitaires (paquets) 
+apt install vim git sudo iproute2 net-tools cron ssh
+
+# 3. Création user tutopalace
+useradd -m -s /bin/bash tutopalace
+
+# 4. Ajout permission sudo pour tutopalace  
+echo "tutopalace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/tutopalace
+
+# Suite à venir avec video sur la chaine youtube.com/@tutopalace  ;-)
 -----
