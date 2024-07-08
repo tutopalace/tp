@@ -1,6 +1,6 @@
-# tutopalace
-## Fichier d'environnement : var env, alias
-## Fichier qui sera complété au fil de la formation ...
+## @tutopalace
+## Fichier d'environnement :  variables, alias (raccourci)
+## Fichier qui sera complété au fil de la formation (videos: youtube.com/@tutopalace)
 
 ## https://github.com/tutopalace/tp/blob/main/.tutopalace
 
@@ -76,8 +76,6 @@ fi
 	alias apt="sudo apt -y "
         alias maj="apt update && apt full-upgrade && apt clean && apt -y autoremove"
 
-
-
 ######################################################
 ## -- DOCKER 
 ######################################################
@@ -102,15 +100,10 @@ fi
 	alias dpsa="docker ps -a"
 	
 	alias dr="docker run -itd --name "     # <container_name> <image>
-	alias de="docker exec -it "	           # <container_name> bash	
-  alias drm="docker rm -f"
+	alias de="docker exec -it "	       # <container_name> bash	
+        alias drm="docker rm -f "
+	alias din="docker inspect "
 
-	alias din="docker inspect"
-	alias drma="docker ps -aq | xargs docker rm -f  "
-	alias drmaa="unalias \$(alias | grep bash | cut -d = -f 1 | xargs echo )"
-
-
-#	alias dib="docker image build"
 #	alias ds="docker search"
 
 
