@@ -1,5 +1,5 @@
 ## @tutopalace
-## Fichier d'environnement :  variables, alias (raccourci)
+## Fichier d'environnement :  variables, alias (raccourcis)
 ## Fichier qui sera complété au fil de la formation (videos: youtube.com/@tutopalace)
 
 ## https://github.com/tutopalace/tp/blob/main/.tutopalace
@@ -30,7 +30,7 @@ FIN
 export EDITOR=vim 
 
 
-# Si Linux (vm, docker, ...)
+# Si Linux uniquement (vm, docker, ...) 
 if [[ "$SHELL" == "/bin/bash"  ]] || [[ "$SHELL" == "/bin/sh" ]]; then
 
 	echo linux
@@ -41,8 +41,10 @@ if [[ "$SHELL" == "/bin/bash"  ]] || [[ "$SHELL" == "/bin/sh" ]]; then
 fi
 
 
-# Si macOS (zsh moins intéressant que bash mais adopté pour cause de licence, bash étant maintenant sous GPL3)
-# A adapter pour windows  en fonction du terminal et du shell 
+# Si macOS 
+# zsh moins intéressant que bash mais adopté pour cause de licence
+# bash étant maintenant sous GPL3 
+# A adapter pour windows en fonction du terminal et du shell par défaut.  
 if [[ "$SHELL" == "/bin/zsh" ]]; then
 
 	echo macOS
