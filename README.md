@@ -28,7 +28,7 @@ Repository pour exposition des fichiers traités dans la chaine Youtube de @tuto
 
 ### script de configuration rapide: conteneur-conf.sh
 
------
+```bash
 #!/bin/bash
 
 ## INFO : 
@@ -63,4 +63,5 @@ useradd -m -s /bin/bash tutopalace
 echo "tutopalace ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/tutopalace
 
 # Suite à venir avec video sur la chaine youtube.com/@tutopalace  ;-)
------
+```
+
